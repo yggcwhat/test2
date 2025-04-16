@@ -54,7 +54,7 @@ echo "hello word!"
 Based on the content, the ID is determined to be 67.
 
 
-Step 2: Construct a request according to `editFileUrl` to rename the file with ID 67. The `copy` function in the vulnerable `editFileUrl` is invoked to rename the file associated with this ID to an illegal suffix.
+Step 2: Then construct a request based on the editFileUrl, rename the one with id 67, where the copy function in the vulnerability's editFileUrl is called to rename the file with an illegal suffix.
 
 ```
 POST /attachment/editFileUrl HTTP/1.1
