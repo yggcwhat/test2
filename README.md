@@ -48,7 +48,8 @@ echo "hello word!"
 ?>
 ------geckoformboundaryd7df19e74fd06439fac43ff3e8a7a4b9--
 ```
-![image](https://github.com/user-attachments/assets/3e13baf4-588c-4f76-ac86-448feb48d7d9)
+![image](https://github.com/user-attachments/assets/aef0412a-b5a5-4253-b582-61b84735ad69)
+
 
 Based on the content, the ID is determined to be 67.
 
@@ -74,6 +75,14 @@ Priority: u=0
 
 id=67&name=test&prefix_url=&suffix_url=file/20250416/test.php&description=123123123
 ```
-![image](https://github.com/user-attachments/assets/bd0b55f0-eadc-45d7-bc5c-3f2a98065d1c)
+![image](https://github.com/user-attachments/assets/f1dd77b0-c2ad-46aa-ae31-50da63c86375)
+
 
 Note: To modify it again, you need to change the filename of `suffix_url` to bypass the `copy` function triggered by `$oldPathUrl != $newPathUrl` inside `editFileUrl`.
+
+
+Access URL:  http://127.0.0.1/storage/file/20250416/test.php
+
+
+![image](https://github.com/user-attachments/assets/5f1cdc2f-ef6a-459d-bdd5-7d8d7d550626)
+
