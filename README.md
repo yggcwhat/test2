@@ -4,7 +4,7 @@ Tips:  This vulnerability is a backend issue. To reproduce it, you need to set u
 
 app ->controller ->backend -> AttachmentController.php:editFileUrl()
 
-In the `editFileUrl` method, the suffix of `$newPathUrl` used in the `copy` function is not validated against a whitelist. This vulnerability can be exploited to modify the filename, as the suffix is controlled by the `suffix_url` parameter, which is controllable.
+The suffix of $newPathUrl in the "copy" function called in the "editFileUrl" method is not verified by the whitelist, which can be exploited to modify the file name. The suffix is controlled by the passed-in suffix_url and is controllable.
 
 
 ![image](https://github.com/user-attachments/assets/5cc40ef7-0d5f-4249-837f-5159475c2cee)
